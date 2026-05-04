@@ -27,9 +27,13 @@ export default function PoochParlourWebsite() {
             </div>
           </div>
 
-          <div className="rounded-[2rem] bg-white p-3 shadow-2xl">
-            <div className="flex aspect-[4/3] items-center justify-center rounded-[1.5rem] bg-gradient-to-br from-cyan-100 to-stone-200 p-8 text-center">
-              <div>
+          <div className="rounded-[2rem] overflow-hidden shadow-2xl">
+  <img
+    src="/salon.jpg"
+    alt="The Pooch Parlour salon"
+    className="w-full h-full object-cover"
+  />
+</div>
                 <div className="mx-auto mb-5 flex h-28 w-28 items-center justify-center rounded-full bg-white shadow-md">
                   <Scissors className="h-12 w-12 text-cyan-700" />
                 </div>
